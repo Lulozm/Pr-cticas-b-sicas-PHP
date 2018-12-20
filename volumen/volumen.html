@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+	
+<head>
+ <title>Volumen</title>
+ <meta charset="utf-8"/>
+ <meta autor="Lulu" description="calculo de volumen" keywords="volumen,figura,calculo"/>
+ <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+</head>
+
+<body>
+  
+ <section>
+  
+<form action="volumen.php" method="post" name="dimensiones">
+  <h1>Cálculo de volumen</h1>
+  <h4>Elige una figura</h4>
+
+      <input type="radio" name="tipof" value="cubo"/> Cubo<br>
+      <input type="radio" name="tipof" value="prisma"/> Prisma cuadrangular<br>
+      <input type="radio" name="tipof" value="piramide"/>Piramide cuadrangular<br>
+    
+   <input  class="caja" type="text" name="largo" placeholder="Captura el largo de la base"/> <br>
+   <input   class="caja" type="text" name="ancho" placeholder="Captura el ancho de la base"/> <br>
+   <input class="caja" type="text" name="alto" placeholder="Captura el alto del cuerpo"/> <br>
+   
+   <input class="boton" type="submit" name="calcular" value="Calcular"/> <br>
+ 
+
+  </form>
+  
+ 
+ </section>

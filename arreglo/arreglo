@@ -1,0 +1,10 @@
+asociativos
+$arreglo=array('id'=>'7516','nombre'=>'lulu');
+
+$datos['id']='7516';
+$datos['nombre']=
+
+
+
+sencillos
+$arreglo=array('a','b');
